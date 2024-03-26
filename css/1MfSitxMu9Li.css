@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'pac';
+					src: url('../fonts/G4phoAwrqjkN.woff2') format('woff2'),
+						url('../fonts/MoMey0MA0tDf.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.pac{font-family: 'pac' !important;}
+
+						h6{
+					font-family: 'pac' !important;
+				}
+		
