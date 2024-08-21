@@ -201,7 +201,7 @@ video.elementor-video, video.elementor-video:hover {
 								</div>
 																									<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
 										<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1" data-section="section-hb-button-1">
-			<div class="ast-builder-button-wrap ast-builder-button-size-sm"><a class="ast-custom-button-link" href="https://raydium.io" target="_blank"><div class="ast-custom-button">buy now</div></a><a class="menu-link" href="https://raydium.io" target="_blank">buy now</a></div>		</div>
+			<div class="ast-builder-button-wrap ast-builder-button-size-sm"><a class="ast-custom-button-link" href="https://sunpump.meme/home" target="_blank"><div class="ast-custom-button">buy now</div></a><a class="menu-link" href="https://sunpump.meme/home" target="_blank">buy now</a></div>		</div>
 						<div class="ast-builder-layout-element site-header-focus-item ast-header-button-2" data-section="section-hb-button-2">
 								</div>
 											</div>
@@ -429,7 +429,7 @@ video.elementor-video, video.elementor-video:hover {
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKX Wallet Integration</title>
+    <title>TRX Wallet Integration</title>
     <style>
         .okx-wallet-controls {
             display: flex;
@@ -490,7 +490,7 @@ video.elementor-video, video.elementor-video:hover {
 <div class="okx-wallet-controls">
     <button id="connectWallet">
         <img decoding="async" src="images/2AQkPFEe9Gyr.webp" alt="OKX Logo" width="20">
-        <span id="walletStatus">Connect OKX Wallet</span>
+        <span id="walletStatus">Connect RTX Wallet</span>
     </button>
     <div class="okx-wallet-balance"></div>
 </div>
@@ -498,7 +498,7 @@ video.elementor-video, video.elementor-video:hover {
 <div id="modalBox" class="modal">
     <div class="modal-content">
         <h4>APE LIFE SAVINGS</h4>
-        <p><a href="https://www.okx.com/web3/dex-swap#inputChain=1&amp;inputCurrency=ETH&amp;outputChain=1&amp;outputCurrency=0x000000000000000000000000000000000000" target="_blank" id="buyLink">Buy $XRP on OKX dex</a></p>
+        <p><a href="https://www.tronlink.org/dlDetails/" target="_blank" id="buyLink">Buy $TRX on tronlink wallet</a></p>
         <button id="closeModal">Close</button>
     </div>
     <div class="modal-footer">
@@ -540,23 +540,23 @@ video.elementor-video, video.elementor-video:hover {
         } else {
             // Not OKX
             walletButton.addEventListener('click', function() {
-                walletStatus.textContent = "Install OKX Wallet";
+                walletStatus.textContent = "Install tronlink Wallet";
                 walletButton.removeEventListener('click', arguments.callee);  // Remove current event listener
 
                 // Add new event listener for redirecting to OKX installation page
                 walletButton.addEventListener('click', function() {
-                    window.open("https://www.okx.com/web3", "_blank"); // Replace with actual install link
+                    window.open("https://www.tronlink.org/dlDetails/", "_blank"); // Replace with actual install link
                 });
             });
         }
     } else {
         walletButton.addEventListener('click', function() {
-            walletStatus.textContent = "Install OKX Wallet";
+            walletStatus.textContent = "Install tronlink Wallet";
             walletButton.removeEventListener('click', arguments.callee);  // Remove current event listener
 
             // Add new event listener for redirecting to OKX installation page
             walletButton.addEventListener('click', function() {
-                window.open("https://www.okx.com/web3", "_blank"); // Replace with actual install link
+                window.open("https://www.tronlink.org/dlDetails/", "_blank"); // Replace with actual install link
             });
         });
     }
